@@ -1,0 +1,75 @@
+2025-01-15 10:00:02 INFO [App] Application started on port 8080
+2025-01-15 10:00:05 INFO [DatabasePool] Connection pool initialized with 20 connections
+2025-01-15 10:00:11 DEBUG [Cache] Warming cache with 150 entries
+2025-01-15 10:00:34 INFO [AuthService] User 1001 logged in
+2025-01-15 10:01:12 INFO [OrderService] Order 5501 created for user 1001
+2025-01-15 10:01:40 INFO [PaymentService] Payment 9001 approved for order 5501
+2025-01-15 10:02:15 WARN [Cache] Cache miss rate above 40 percent
+2025-01-15 10:02:58 INFO [AuthService] User 1002 logged in
+2025-01-15 10:03:20 INFO [OrderService] Order 5502 created for user 1002
+2025-01-15 10:03:47 ERROR [AuthService] Invalid token for user 1017
+2025-01-15 10:04:30 INFO [PaymentService] Payment 9002 approved for order 5502
+2025-01-15 10:04:55 INFO [InventoryService] Stock updated for item 301
+2025-01-15 10:05:10 INFO [AuthService] User 1003 logged in
+2025-01-15 10:05:42 INFO [OrderService] Order 5503 created for user 1003
+2025-01-15 10:06:18 INFO [PaymentService] Payment 9003 approved for order 5503
+2025-01-15 10:07:05 WARN [DatabasePool] Connection pool usage at 70 percent
+2025-01-15 10:07:49 INFO [AuthService] User 1004 logged in
+2025-01-15 10:08:21 ERROR [NotificationService] SMTP connection refused to 10.0.4.17:25
+2025-01-15 10:08:44 INFO [OrderService] Order 5504 created for user 1004
+2025-01-15 10:09:30 INFO [PaymentService] Payment 9004 approved for order 5504
+2025-01-15 10:10:12 INFO [InventoryService] Stock updated for item 302
+2025-01-15 10:10:50 ERROR [OrderService] Order 5510 not found
+2025-01-15 10:11:33 INFO [AuthService] User 1005 logged in
+2025-01-15 10:12:09 INFO [OrderService] Order 5505 created for user 1005
+2025-01-15 10:12:41 WARN [PaymentService] Slow response from payment gateway (1800 ms)
+2025-01-15 10:13:15 INFO [PaymentService] Payment 9005 approved for order 5505
+2025-01-15 10:13:58 ERROR [PaymentService] Connection timeout to db-01
+2025-01-15 10:14:20 INFO [AuthService] User 1006 logged in
+2025-01-15 10:15:03 INFO [OrderService] Order 5506 created for user 1006
+2025-01-15 10:15:44 INFO [PaymentService] Payment 9006 approved for order 5506
+2025-01-15 10:16:30 WARN [DatabasePool] Connection pool usage at 85 percent
+2025-01-15 10:17:12 INFO [AuthService] User 1007 logged in
+2025-01-15 10:18:05 DEBUG [Cache] Evicted 12 expired entries
+2025-01-15 10:18:40 INFO [InventoryService] Stock updated for item 303
+2025-01-15 10:19:27 ERROR [AuthService] Invalid token for user 1023
+2025-01-15 10:19:59 INFO [OrderService] Order 5507 created for user 1007
+2025-01-15 10:20:08 WARN [DatabasePool] Connection pool exhausted, waiting for free connection
+2025-01-15 10:20:31 ERROR [PaymentService] Connection timeout to db-01
+2025-01-15 10:20:45 ERROR [PaymentService] Connection timeout to db-01
+2025-01-15 10:21:02 INFO [AuthService] User 1008 logged in
+2025-01-15 10:21:18 ERROR [PaymentService] Connection timeout to db-02
+2025-01-15 10:21:33 ERROR [PaymentService] Failed to process payment for order 5507
+2025-01-15 10:21:49 ERROR [PaymentService] Connection timeout to db-01
+2025-01-15 10:22:05 WARN [OrderService] Order 5508 stuck in pending state
+2025-01-15 10:22:20 ERROR [PaymentService] Failed to process payment for order 5508
+2025-01-15 10:22:41 ERROR [OrderService] Order 5508 not found
+2025-01-15 10:23:07 ERROR [PaymentService] Connection timeout to db-02
+2025-01-15 10:23:30 INFO [AuthService] User 1009 logged in
+2025-01-15 10:23:52 ERROR [PaymentService] Connection timeout to db-01
+2025-01-15 10:24:14 ERROR [PaymentService] Failed to process payment for order 5509
+2025-01-15 10:24:40 WARN [PaymentService] Slow response from payment gateway (4200 ms)
+2025-01-15 10:24:58 INFO [InventoryService] Stock updated for item 304
+2025-01-15 10:25:15 INFO [DatabasePool] Connection pool recovered, 18 connections available
+2025-01-15 10:25:40 ERROR [PaymentService] Connection timeout to db-02
+2025-01-15 10:26:12 INFO [AuthService] User 1010 logged in
+2025-01-15 10:26:50 WARN [PaymentService] Slow response from payment gateway (2500 ms)
+2025-01-15 10:27:22 ERROR [PaymentService] Failed to process payment for order 5509
+2025-01-15 10:28:03 INFO [OrderService] Order 5511 created for user 1010
+2025-01-15 10:28:45 INFO [PaymentService] Payment 9007 approved for order 5511
+2025-01-15 10:29:30 INFO [InventoryService] Stock updated for item 306
+2025-01-15 10:30:10 INFO [AuthService] User 1011 logged in
+2025-01-15 10:31:05 INFO [OrderService] Order 5513 created for user 1011
+2025-01-15 10:31:40 INFO [PaymentService] Payment 9008 approved for order 5513
+2025-01-15 10:32:18 DEBUG [Cache] Cache warmed with 150 entries
+2025-01-15 10:33:02 ERROR [NotificationService] SMTP connection refused to 10.0.4.17:25
+2025-01-15 10:33:45 INFO [AuthService] User 1012 logged in
+2025-01-15 10:34:20 INFO [InventoryService] Stock updated for item 305
+2025-01-15 10:34:55 INFO [OrderService] Order 5514 created for user 1012
+2025-01-15 10:35:12 INFO [PaymentService] Payment 9009 approved for order 5514
+2025-01-15 10:36:00 INFO [AuthService] User 1013 logged in
+2025-01-15 10:36:48 WARN [Cache] Cache miss rate above 40 percent
+2025-01-15 10:37:30 INFO [OrderService] Order 5515 created for user 1013
+2025-01-15 10:38:09 ERROR [AuthService] Invalid token for user 1031
+2025-01-15 10:38:50 INFO [PaymentService] Payment 9010 approved for order 5515
+2025-01-15 10:39:40 INFO [App] Health check passed

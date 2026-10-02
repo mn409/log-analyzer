@@ -1,0 +1,12 @@
+2025-01-15 09:00:01 INFO [App] Service started
+2025-01-15 09:00:05 ERROR [PaymentService] Connection timeout to db-01
+this line is just garbage text
+2025-01-15 09:01:10 ERROR [PaymentService] Connection timeout to db-02
+2025-01-15 09:02:00 ERROR Missing component here
+2025-01-15 09:02:30 FATAL [App] Unknown level in this line
+2025-13-45 09:03:00 INFO [App] Month and day are not real
+2025-01-15 09:03:15 WARN [Cache] Cache miss rate above 40 percent
+
+2025-01-15 09:04:00 INFO [App] Health check passed
+2025-01-15 09:04:30
+2025-01-15 09:05:10 ERROR [PaymentService] Connection timeout to db-01
